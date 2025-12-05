@@ -1,0 +1,218 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fed4eb85-8fa4-4802-8067-32ceb4a4d6d6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Taiwan Dengue</ID>
+  <Name>Taiwan Dengue</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Taiwan Dengue</DataSourceID>
+  <Schema>
+    <xs:schema id="Taiwan_x0020_Dengue" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Taiwan_x0020_Dengue" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="7ec07547-4478-45e3-bea1-7a63ab9c2eb8">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Dim_Disease" msprop:DbTableName="Dim_Disease" msprop:FriendlyName="Dim_Disease" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="e6429967-b9ea-469b-a5b6-c7d5169adedd">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Disease_Info_Key" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Disease_Info_Key" msprop:DbColumnName="Disease_Info_Key" msprop:design-time-name="d790c667-835a-4bdb-bbc1-368d96dff535" type="xs:int" />
+                  <xs:element name="Serotype" msprop:FriendlyName="Serotype" msprop:DbColumnName="Serotype" msprop:design-time-name="16ed9860-443d-4e58-b6ca-ad9a3d753429" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Imported_Status" msprop:FriendlyName="Imported_Status" msprop:DbColumnName="Imported_Status" msprop:design-time-name="6a5c1634-fd6f-49ee-861c-0148a6beaeeb" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Origin_Country" msprop:FriendlyName="Origin_Country" msprop:DbColumnName="Origin_Country" msprop:design-time-name="9c2af6f1-9243-4bf9-8487-3df3d8c4fde3" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Location" msprop:DbTableName="Dim_Location" msprop:FriendlyName="Dim_Location" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="5644b024-1d58-4d3b-88f5-cf0a84dc7e5a">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Location_Key" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Location_Key" msprop:DbColumnName="Location_Key" msprop:design-time-name="7cdd3fff-7686-4a0b-b85a-843bef1bfb33" type="xs:int" />
+                  <xs:element name="County_Name" msprop:FriendlyName="County_Name" msprop:DbColumnName="County_Name" msprop:design-time-name="7ed86dae-95c5-444e-bc11-3b2a076c7fca" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="County_Code" msprop:FriendlyName="County_Code" msprop:DbColumnName="County_Code" msprop:design-time-name="43240892-ada7-4c35-af0c-4f3b53b09e81" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Township_Name" msprop:FriendlyName="Township_Name" msprop:DbColumnName="Township_Name" msprop:design-time-name="ceb9ef68-5d3c-4bf3-a076-5bb6e95fbf9d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Township_Code" msprop:FriendlyName="Township_Code" msprop:DbColumnName="Township_Code" msprop:design-time-name="02c58d57-ca16-4a05-8ec4-7eda4653562a" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Village_Name" msprop:FriendlyName="Village_Name" msprop:DbColumnName="Village_Name" msprop:design-time-name="ca1dbee8-d676-468e-82d0-e4985de2659f" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Village_Code" msprop:FriendlyName="Village_Code" msprop:DbColumnName="Village_Code" msprop:design-time-name="43740520-b41e-453e-a204-4bda09d2d2bc" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Latitude" msprop:FriendlyName="Latitude" msprop:DbColumnName="Latitude" msprop:design-time-name="a0e6e3e6-76c3-4257-9a02-b1a09cdbc935" type="xs:double" minOccurs="0" />
+                  <xs:element name="Longitude" msprop:FriendlyName="Longitude" msprop:DbColumnName="Longitude" msprop:design-time-name="2948472d-5ad8-4f47-8d76-32a5eed6316e" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Patient" msprop:DbTableName="Dim_Patient" msprop:FriendlyName="Dim_Patient" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="6e81da64-d434-4ed2-890f-bd70c18750cd">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Demographic_Key" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Demographic_Key" msprop:DbColumnName="Demographic_Key" msprop:design-time-name="ccb3081e-dc57-4d45-ba86-07d9fa724a61" type="xs:int" />
+                  <xs:element name="Sex" msprop:FriendlyName="Sex" msprop:DbColumnName="Sex" msprop:design-time-name="02d46f4c-2cf2-482f-b780-d7cb59d701b9" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Age_Group" msprop:FriendlyName="Age_Group" msprop:DbColumnName="Age_Group" msprop:design-time-name="fa030fc1-6122-46c6-99cc-f1bc9914464e" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dim_Time" msprop:DbTableName="Dim_Time" msprop:FriendlyName="Dim_Time" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="2ee65510-5f0d-40af-9027-e7363603df57">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Date_Key" msprop:FriendlyName="Date_Key" msprop:DbColumnName="Date_Key" msprop:design-time-name="1e424b09-ed67-4ae5-ba1c-3cb7387ad190" type="xs:int" />
+                  <xs:element name="Full_Date" msprop:FriendlyName="Full_Date" msprop:DbColumnName="Full_Date" msprop:design-time-name="958e1ce1-af4b-4641-8418-c119489861b1" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="41cc2420-fe64-4091-a76c-e06f303c782b" type="xs:int" minOccurs="0" />
+                  <xs:element name="Quarter" msprop:FriendlyName="Quarter" msprop:DbColumnName="Quarter" msprop:design-time-name="db40dacd-af49-4578-a8b7-b2c046c98973" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="a3202370-2d3a-4f0d-b52f-c23060547b0e" type="xs:int" minOccurs="0" />
+                  <xs:element name="Week_of_Year" msprop:FriendlyName="Week_of_Year" msprop:DbColumnName="Week_of_Year" msprop:design-time-name="6add423b-3524-4900-90b8-121701b05f83" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day_of_Week" msprop:FriendlyName="Day_of_Week" msprop:DbColumnName="Day_of_Week" msprop:design-time-name="c3e3bef8-881b-43eb-8574-d85819e39ecf" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Fact_DengueCases" msprop:DbTableName="Fact_DengueCases" msprop:FriendlyName="Fact_DengueCases" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="bf47435f-f7ec-4a7b-b1ce-e932ca135793">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Case_ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Case_ID" msprop:DbColumnName="Case_ID" msprop:design-time-name="c72a746a-3139-42f0-a298-e6b21ddfef83" type="xs:int" />
+                  <xs:element name="Date_Onset_Key" msprop:FriendlyName="Date_Onset_Key" msprop:DbColumnName="Date_Onset_Key" msprop:design-time-name="91053830-33ed-4b2b-a3a0-56dee771fb78" type="xs:int" minOccurs="0" />
+                  <xs:element name="Date_Confirm_Key" msprop:FriendlyName="Date_Confirm_Key" msprop:DbColumnName="Date_Confirm_Key" msprop:design-time-name="d882bd0e-3135-471b-ac46-a7324d2ca1fa" type="xs:int" minOccurs="0" />
+                  <xs:element name="Date_Notify_Key" msprop:FriendlyName="Date_Notify_Key" msprop:DbColumnName="Date_Notify_Key" msprop:design-time-name="10c10788-d455-4508-93f0-82763352ab5a" type="xs:int" minOccurs="0" />
+                  <xs:element name="Loc_Living_Key" msprop:FriendlyName="Loc_Living_Key" msprop:DbColumnName="Loc_Living_Key" msprop:design-time-name="4581a77f-9457-4b2f-993a-f4c8c620eef1" type="xs:int" minOccurs="0" />
+                  <xs:element name="Loc_Infected_Key" msprop:FriendlyName="Loc_Infected_Key" msprop:DbColumnName="Loc_Infected_Key" msprop:design-time-name="9eafb270-3fb7-4a02-8d96-d53048325856" type="xs:int" minOccurs="0" />
+                  <xs:element name="Demographic_Key" msprop:FriendlyName="Demographic_Key" msprop:DbColumnName="Demographic_Key" msprop:design-time-name="7a2f67c0-8353-4576-bac2-d7a7496b849e" type="xs:int" minOccurs="0" />
+                  <xs:element name="Disease_Info_Key" msprop:FriendlyName="Disease_Info_Key" msprop:DbColumnName="Disease_Info_Key" msprop:design-time-name="1c644191-e50e-4176-8dae-db8313b8eb6c" type="xs:int" minOccurs="0" />
+                  <xs:element name="Confirmed_Cases" msprop:FriendlyName="Confirmed_Cases" msprop:DbColumnName="Confirmed_Cases" msprop:design-time-name="da2742e5-d42b-486f-a8af-840a60fb7a4f" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Disease" />
+          <xs:field xpath="Disease_Info_Key" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Location_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Location" />
+          <xs:field xpath="Location_Key" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Patient_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Patient" />
+          <xs:field xpath="Demographic_Key" />
+        </xs:unique>
+        <xs:unique name="dbo_Dim_Time_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dim_Time" />
+          <xs:field xpath="Date_Key" />
+        </xs:unique>
+        <xs:unique name="dbo_Fact_DengueCases_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Fact_DengueCases" />
+          <xs:field xpath="Case_ID" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="Fact_DengueCases-Dim_Patient" msdata:parent="dbo_Dim_Patient" msdata:child="dbo_Fact_DengueCases" msdata:parentkey="Demographic_Key" msdata:childkey="Demographic_Key" />
+          <msdata:Relationship name="Fact_DengueCases-Dim_Disease" msdata:parent="dbo_Dim_Disease" msdata:child="dbo_Fact_DengueCases" msdata:parentkey="Disease_Info_Key" msdata:childkey="Disease_Info_Key" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Taiwan_x0020_Dengue xmlns="" />
+  </Schema>
+</DataSourceView>

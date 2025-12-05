@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "SSIS_TaiwanDengue", "SSIS_TaiwanDengue.dtproj", "{EB453ABC-DF51-A0C4-9613-3B3B2EEB0CFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB453ABC-DF51-A0C4-9613-3B3B2EEB0CFF}.Development|Default.ActiveCfg = Development
+		{EB453ABC-DF51-A0C4-9613-3B3B2EEB0CFF}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C3954D9-3D03-4BF4-A307-EAC2F17F636D}
+	EndGlobalSection
+EndGlobal
