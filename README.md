@@ -17,7 +17,7 @@
 | STT | MSSV     | Họ và Tên         | GitHub                           | Email                  |
 | :-- | :------- | :---------------- | :------------------------------- | :--------------------- |
 | 1   | 23521720 | Nguyễn Minh Tuấn  | https://github.com/MinhTuan-K18  | 23521720@gm.uit.edu.vn |
-| 2   | 21522532 | Nguyễn Hùng Quyến |                                  | 21522532@gm.uit.edu.vn |
+| 2   | 21522532 | Nguyễn Hùng Quyến | https://github.com/NguyenHungQuyen | 21522532@gm.uit.edu.vn |
 
 ## Các đường liên kết:
 -    **Dataset:** [Taiwan Dengue Cases 1998-2024](https://www.kaggle.com/datasets/taweilo/taiwan-dengue-daily-confirmed-cases-1998-2024)
