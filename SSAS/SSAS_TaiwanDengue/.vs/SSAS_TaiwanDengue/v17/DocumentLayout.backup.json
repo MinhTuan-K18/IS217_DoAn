@@ -1,12 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_TaiwanDengue\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6B14E3A6-1116-F453-A179-D081B74111F5}|SSAS_TaiwanDengue.dwproj|E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_TaiwanDengue\\Taiwan Dengue.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{6B14E3A6-1116-F453-A179-D081B74111F5}|SSAS_TaiwanDengue.dwproj|solutionrelative:Taiwan Dengue.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Taiwan Dengue.cube [Design]",
+              "DocumentMoniker": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_TaiwanDengue\\Taiwan Dengue.cube",
+              "RelativeDocumentMoniker": "Taiwan Dengue.cube",
+              "ToolTip": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_TaiwanDengue\\Taiwan Dengue.cube [Design]",
+              "RelativeToolTip": "Taiwan Dengue.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-05T18:43:10.146Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

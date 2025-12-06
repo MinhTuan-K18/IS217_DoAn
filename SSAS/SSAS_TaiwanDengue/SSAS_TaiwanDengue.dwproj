@@ -20,12 +20,20 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Dim Patient.dim</Name>
-      <FullPath>Dim Patient.dim</FullPath>
+      <Name>Dim Time.dim</Name>
+      <FullPath>Dim Time.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim Disease.dim</Name>
       <FullPath>Dim Disease.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Patient.dim</Name>
+      <FullPath>Dim Patient.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Location.dim</Name>
+      <FullPath>Dim Location.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
