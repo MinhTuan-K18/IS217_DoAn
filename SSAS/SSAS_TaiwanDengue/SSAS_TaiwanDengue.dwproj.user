@@ -7,7 +7,6 @@
           <ConfigurationSetting>
             <Id>Taiwan Dengue</Id>
             <Name>Taiwan Dengue</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK9JElmd1JEm1+/YmULAO/wAAAAAcAAAAVABhAGkAdwBhAG4AIABEAGUAbgBnAHUAZQAAABBmAAAAAQAAIAAAADvsprrxuUzmhkmG75T1HspjdDhEsQoi4CaS+qgkpwIpAAAAAA6AAAAAAgAAIAAAAFxg+fhEMye9E4lLgM27/uqFN5y7IBD8GuPGsSySon6XEAAAAHhEXzzQw1ot7Bzt5fAJOCZAAAAAsw0HYk440q6yn/qPL3ZDgDojFOBtz6thf1Dn+kjYeYvGTNOrnBEcAR0CbRmCqefcBP9/BoUew/aO4rj2z9HGUA==</Value>
           </ConfigurationSetting>
         </UserIDs>
         <TargetServer>localhost</TargetServer>

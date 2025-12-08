@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3d143b89-2d97-49c1-8069-05e09774412c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="16ba549a-c931-4b19-8394-6f25798b1cad" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Taiwan Dengue</ID>
   <Name>Taiwan Dengue</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="13" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2290" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20003" y="16320" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="13" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2290" scrolltop="-458" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20003" y="16320" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -229,7 +229,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-5000</Value>
+      <Value>-458</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -247,230 +247,211 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="3cce3e27-87cf-4bfb-802e-d5caf52387de">
+    <Dimension dwd:design-time-name="bdbda974-b990-4d01-a638-193ade8b1396">
       <ID>Date Confirm</ID>
       <Name>Date Confirm</Name>
       <DimensionID>Dim Time</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="1ccd200e-bc15-4993-b0f0-bc8cba2e682b">
+        <Attribute dwd:design-time-name="9f3e4ba9-7c48-45fe-9f50-9867961e50fa">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6bd31d12-0641-4191-bc20-424ecd602888">
+        <Attribute dwd:design-time-name="078219dd-c145-49bd-a6f7-e1fd9412e28e">
           <AttributeID>Full Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="07fa70fb-ce78-4897-8373-7837a66cc84a">
+        <Attribute dwd:design-time-name="be3e8abb-b973-467a-a786-f7c70448b9b6">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ebc3643f-0005-4bba-9259-7008eabe17a8">
+        <Attribute dwd:design-time-name="c7ee5b44-7558-4df2-a66a-c0a89f4f8f8e">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2b406823-a097-4e6f-8f97-1ead1cf5a373">
+        <Attribute dwd:design-time-name="d371e4e7-f0d4-4444-b62e-14b53c223d55">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c5a99b14-0d5a-417f-8317-958d39a73522">
+        <Attribute dwd:design-time-name="2a2542bd-1e37-48ce-9c62-49a1cfd227a5">
           <AttributeID>Week Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="22512879-3626-486c-9429-dc6b4d3a54b2">
+        <Attribute dwd:design-time-name="71572a42-3e3a-44d3-bbe3-c65715ae94f1">
           <AttributeID>Day Of Week</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="1ed95ecd-af0b-4a6d-8f4d-3be74337bc98">
+        <Hierarchy dwd:design-time-name="e6ca1ff3-65cb-40e6-a869-392066803f3d">
           <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="12ecf2e0-9096-4ee7-ab5d-946c2ab7d898">
-          <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="f39a82f3-441f-4491-a2a3-4ed6f7f665ca">
+    <Dimension dwd:design-time-name="caa7075f-fe45-4f2a-87fd-93e083713bc2">
       <ID>Date Notify</ID>
       <Name>Date Notify</Name>
       <DimensionID>Dim Time</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="bbd77d1f-83cc-407e-a6e2-44bb4c76209d">
+        <Attribute dwd:design-time-name="868df19f-f1ac-4897-86aa-f1201ccf75ee">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ea7ba926-3df6-4f80-bc72-330088f4c881">
+        <Attribute dwd:design-time-name="0ec42e44-e273-4edd-83ee-fce5cc0c2919">
           <AttributeID>Full Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b2db61ab-d2c4-4035-b411-052aa2cd8dfb">
+        <Attribute dwd:design-time-name="b583e124-afe7-45dc-8957-8907d5b12f6e">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="cb2742cf-8e51-46b0-8ceb-133916592d41">
+        <Attribute dwd:design-time-name="2ddf74b0-c9bc-49e8-971f-b0fb772b6632">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b8a4018f-6b70-4d00-90d2-083c21422990">
+        <Attribute dwd:design-time-name="2bb24154-cd81-4548-9cac-b31a59414374">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c7ebe474-dae8-4f2f-b84c-5974e9975daf">
+        <Attribute dwd:design-time-name="1a462480-c298-4f32-bc91-8ad1aad9f7bd">
           <AttributeID>Week Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0f503f4a-d91f-40bd-a1cd-763e2577c8ab">
+        <Attribute dwd:design-time-name="17b20571-a9ee-4010-8d27-6d37ab006210">
           <AttributeID>Day Of Week</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="8c46637d-4d04-4491-b20f-34fb9c4c9d4c">
+        <Hierarchy dwd:design-time-name="bb5f2389-8071-4cde-9a1d-4a61ebecbe0b">
           <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="f30d0844-a9f8-4bdc-9134-5facf0dbbb69">
-          <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="fa235f5a-af9c-4ca9-b8e2-51815a19bb6c">
+    <Dimension dwd:design-time-name="f768f4f5-e2a5-4df0-8bfe-630cdafa9c1f">
       <ID>Dim Disease</ID>
       <Name>Dim Disease</Name>
       <DimensionID>Dim Disease</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="ac35f226-9a97-4a59-84da-8db5cbfc024f">
+        <Attribute dwd:design-time-name="ddaeb724-fb97-465a-a90d-727050d4c58e">
           <AttributeID>Disease Info Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="17daa673-c2b6-47f3-8858-eafbc7931331">
+        <Attribute dwd:design-time-name="681e9433-76ba-439d-8341-324fe2c52433">
           <AttributeID>Serotype</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9126971b-dc9b-4b61-b413-18a219d5900a">
+        <Attribute dwd:design-time-name="6650fb41-8c08-4dd2-a476-49424621f80e">
           <AttributeID>Imported Status</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="060e517e-40a1-490b-952a-d346c1bf153d">
+        <Attribute dwd:design-time-name="77e8c428-7d18-4e0c-8e14-7c400900002f">
           <AttributeID>Origin Country</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="9369dbc9-01c5-45d6-ba06-c8a322ff51db">
+    <Dimension dwd:design-time-name="1e120a05-1303-4acb-bf78-cddce6e91dc1">
       <ID>Dim Patient</ID>
       <Name>Dim Patient</Name>
       <DimensionID>Dim Patient</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="8c94e332-f14c-43cc-98fc-3ebfaf25606f">
+        <Attribute dwd:design-time-name="c76b90c2-d200-4676-9b21-44d23299fb02">
           <AttributeID>Demographic Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="caf6c4a1-764b-42da-b1b6-06f35a5b2727">
+        <Attribute dwd:design-time-name="187eaa65-6a35-4494-8752-ff2933c243ab">
           <AttributeID>Sex</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9b6232de-97c0-48ec-8d04-c88d5f3e3d54">
+        <Attribute dwd:design-time-name="00b17bc8-df7f-4814-a83e-95187cd5c2f5">
           <AttributeID>Age Group</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="3ab3e10b-931f-42b3-8255-c73626c2b669">
+    <Dimension dwd:design-time-name="04ae2f75-f4fc-4aca-9a16-9ab3d1037659">
       <ID>Loc Infected</ID>
       <Name>Loc Infected</Name>
       <DimensionID>Dim Location</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="2656091a-4fa0-42e5-a5d6-9d3bf141495e">
+        <Attribute dwd:design-time-name="a3e970d2-1a13-457c-a57a-88c943bf0a90">
           <AttributeID>Location Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3545a6e8-f6e2-4ca4-83be-be760478f7fc">
+        <Attribute dwd:design-time-name="b555f4d6-5c0a-4f5b-a367-ede77d55b1a1">
           <AttributeID>County Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="26909cb3-fab2-4e47-bcd3-1c4700d94b19">
+        <Attribute dwd:design-time-name="03cfd4cc-8c66-4f7e-8bfa-18999e55d031">
           <AttributeID>County Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d83db268-a7f1-485a-8ea1-04f7462a89a5">
+        <Attribute dwd:design-time-name="37ba1053-e49d-43bd-9a37-f7faa55d322e">
           <AttributeID>Township Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0057dbfb-6c64-47ab-a2e1-3aaa3ed03f89">
+        <Attribute dwd:design-time-name="1665d36a-f626-49e4-a097-f4caf01cf6cd">
           <AttributeID>Township Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8acc8650-9e2c-4af7-be44-2307790048a8">
+        <Attribute dwd:design-time-name="fd34734e-e6e4-43fa-9a9c-57b39d395d69">
           <AttributeID>Village Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="70f6f69b-3a47-4637-a741-3ffdfb5c379d">
+        <Attribute dwd:design-time-name="3c77b0d8-465c-421c-957e-ac13f76c389f">
           <AttributeID>Village Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1012f500-e584-49bf-8c07-2675e7318158">
+        <Attribute dwd:design-time-name="724eb504-c8d3-4bb8-9f2e-658b858e37ad">
           <AttributeID>Latitude</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2938b43e-4946-4d4c-b0e5-6a68d49dd19c">
+        <Attribute dwd:design-time-name="d51d892b-1d69-4266-a4ef-ae630030a660">
           <AttributeID>Longitude</AttributeID>
         </Attribute>
       </Attributes>
-      <Hierarchies>
-        <Hierarchy dwd:design-time-name="23d86e5c-625c-4658-a153-ff1f09d2d462">
-          <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-      </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="89c4172b-a285-4c37-89d2-b28111dc1bc5">
+    <Dimension dwd:design-time-name="cf540d71-a426-4e5e-92c2-9debccb51de7">
       <ID>Date Onset</ID>
       <Name>Date Onset</Name>
       <DimensionID>Dim Time</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="6859fe48-e0ad-4022-9858-60dbdee1caeb">
+        <Attribute dwd:design-time-name="eb603177-b900-444c-b527-a712e542c1b1">
           <AttributeID>Date Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="20cd41c8-7d72-4d74-8bf1-74d26de9a76e">
+        <Attribute dwd:design-time-name="977ff7e2-a32e-4ba9-8416-756af99d7ea6">
           <AttributeID>Full Date</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0b776af0-e474-4268-94a6-63490505af26">
+        <Attribute dwd:design-time-name="8e862699-b02c-453b-8d2a-774909294d8c">
           <AttributeID>Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a74196c1-ec94-457d-ae32-3e08ddfd4a86">
+        <Attribute dwd:design-time-name="17d7c263-38b2-414f-b3b8-f9134bb3dcda">
           <AttributeID>Quarter</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a320b950-3ddd-442a-bc33-4455e467af03">
+        <Attribute dwd:design-time-name="44a3098f-9bd1-418b-b660-b05809c868a5">
           <AttributeID>Month</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="22d9a9e2-d6d9-4e8e-adc8-731365417345">
+        <Attribute dwd:design-time-name="8b11a223-b505-46e9-8d8d-62522ee3dff6">
           <AttributeID>Week Of Year</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fbc3e718-fb6b-40d6-92a4-3723773dcbfe">
+        <Attribute dwd:design-time-name="4efe1e42-a212-4add-81f0-445d37303651">
           <AttributeID>Day Of Week</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="c588a1c1-be1f-44fb-8099-99386350cab9">
+        <Hierarchy dwd:design-time-name="b11f0cbb-c055-43d5-9369-0faab9a5d3d3">
           <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="457fcc3a-1ab2-4833-a49e-68af851341c8">
-          <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="41188de8-fe9c-4690-bcfc-a4682ed52fd9">
+    <Dimension dwd:design-time-name="1f3f1458-d15b-48e9-a6f8-a42370ec49d0">
       <ID>Loc Living</ID>
       <Name>Loc Living</Name>
       <DimensionID>Dim Location</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="06e11efe-5680-41d0-99c2-04593360a48b">
+        <Attribute dwd:design-time-name="89df8b20-73b2-44d2-a480-e1f85b86e2f1">
           <AttributeID>Location Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="171a623e-1260-40c9-986e-8cc0a9743162">
+        <Attribute dwd:design-time-name="1910d6f2-ebc9-4c28-8fc1-61d7825415c5">
           <AttributeID>County Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d28b6e4c-2c5a-4c0c-8a1f-13490ed2b24c">
+        <Attribute dwd:design-time-name="66ecfce0-917f-4ae8-a7ea-43cd2c610b2e">
           <AttributeID>County Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c8ecb8df-e9d9-4064-b722-c3d67aada952">
+        <Attribute dwd:design-time-name="65aedaf9-bbf8-4cad-97c1-eea61396c39e">
           <AttributeID>Township Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3ee6d597-9eb1-4549-8ba4-54e8962f4c02">
+        <Attribute dwd:design-time-name="b157fc4e-623b-4315-869b-4336cd2c4bed">
           <AttributeID>Township Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5ab287fc-474d-42c9-8c43-37b793485d19">
+        <Attribute dwd:design-time-name="bbbb2ce2-410c-49dd-9f3c-092ff48a0ad3">
           <AttributeID>Village Name</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a532ac78-4b5e-4af6-93ff-0d6836b637f8">
+        <Attribute dwd:design-time-name="b48e6a2e-2ff8-4372-a3c7-b77465a84a72">
           <AttributeID>Village Code</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="000c7b72-b3bb-44a4-b6e7-96a0ae45eecf">
+        <Attribute dwd:design-time-name="3a57ee8e-2d7f-4871-a6c6-e5c8290a2682">
           <AttributeID>Latitude</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d4a3c352-c5a2-41b2-bbca-d007548e910c">
+        <Attribute dwd:design-time-name="3b33f525-8603-4f4a-a6b0-0cf5e30005c7">
           <AttributeID>Longitude</AttributeID>
         </Attribute>
       </Attributes>
-      <Hierarchies>
-        <Hierarchy dwd:design-time-name="6f39e14d-f9b5-484e-8f52-95f89e4b0233">
-          <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="67bcace3-4fa0-4760-83e2-02edf4b91218">
+    <MeasureGroup dwd:design-time-name="a3f4ecb0-732f-400b-be18-94ea749e0364">
       <ID>Fact Dengue Cases</ID>
       <Name>Fact Dengue Cases</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -478,25 +459,25 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="6bda488f-7fb4-448f-acb6-f567599b1f25">
+        <Measure dwd:design-time-name="68a09e72-dba6-4d1d-be7b-a27e6087ed5d">
           <ID>Confirmed Cases</ID>
           <Name>Confirmed Cases</Name>
-          <Source dwd:design-time-name="8e39cb14-3a30-4202-87ab-66cc494271ef">
+          <Source dwd:design-time-name="256d68b1-e80c-4ff8-b277-b9397af84d4c">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a1b351a7-2ff7-4b30-92eb-a7f42a15f152">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ab672f55-8629-4219-bb43-a20c8e5d12da">
               <TableID>dbo_Fact_DengueCases</TableID>
               <ColumnID>Confirmed_Cases</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="2c794c7e-e97c-475b-acb9-4e2f332443cb">
+        <Measure dwd:design-time-name="1816e5ac-1e18-4a97-baf1-0e2f5ae7e8a1">
           <ID>Fact Dengue Cases Count</ID>
           <Name>Fact Dengue Cases Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="68f8d25e-ba4d-4bf2-80b9-ab3506c2e6ac">
+          <Source dwd:design-time-name="d0c0d959-131e-4b6b-9e85-35b47b589cc6">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="452db4f6-6aa4-4fc1-b3f3-2ee6b2d311ea">
+            <Source xsi:type="RowBinding" dwd:design-time-name="ce8d744f-de86-4018-9886-0be348b50507">
               <TableID>dbo_Fact_DengueCases</TableID>
             </Source>
           </Source>
@@ -505,16 +486,16 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="349c8610-1fc5-4226-9aa1-ddee86e74322">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bce4e440-4739-4d00-a41a-41350fc498e1">
           <CubeDimensionID>Date Confirm</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="28df2472-fcbc-4c63-a487-800791f7b8b9">
+            <Attribute dwd:design-time-name="78d26b3e-40fb-45f4-ae6c-41fc77308a72">
               <AttributeID>Date Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="ab200e20-7fca-4232-b6f2-744ac75fac80">
+                <KeyColumn dwd:design-time-name="cc4c5a62-49ab-4bac-8bf9-58333d4b45f3">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8c47a831-19d1-4ec1-b024-991b9b7dc221">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="13f1ef71-0662-4a88-9d76-d7b2312ddf66">
                     <TableID>dbo_Fact_DengueCases</TableID>
                     <ColumnID>Date_Confirm_Key</ColumnID>
                   </Source>
@@ -524,16 +505,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3a609978-919f-42ed-a80f-b072912ee009">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9504098f-97c1-4832-affd-cd8c8e3111b7">
           <CubeDimensionID>Date Notify</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="2cf04529-bd65-45a0-b1b8-398c1109eedb">
+            <Attribute dwd:design-time-name="8bfd98d1-3f69-443d-861c-c2357b180ca6">
               <AttributeID>Date Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="69b0d8c9-7358-4535-9b44-f88642c56c4c">
+                <KeyColumn dwd:design-time-name="5096f96d-580a-4cf0-b6df-0a1aeb1c3901">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e0106d1d-a40c-40ad-a5ad-f32776641a01">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5f2eadac-819f-46fc-8222-49d82f72bfab">
                     <TableID>dbo_Fact_DengueCases</TableID>
                     <ColumnID>Date_Notify_Key</ColumnID>
                   </Source>
@@ -543,16 +524,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="af31c3e8-3b5c-4b73-b9c4-fb50ecfa8fb9">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6efaf7bb-c335-4902-98bb-7d657f3f16be">
           <CubeDimensionID>Dim Disease</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="79f4daf3-9393-4e8a-b5f7-fb283e1a9033">
+            <Attribute dwd:design-time-name="d9b4f73a-3350-4148-ab6e-2c57f17dd507">
               <AttributeID>Disease Info Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="4c3f086f-2a5b-40ca-8811-85633def6223">
+                <KeyColumn dwd:design-time-name="85044945-912b-496f-a81e-50bf02c6e56a">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="825decd2-bf9c-4b7d-a645-4b503747e35b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f44b19b2-28e0-4945-91dd-5c93946e51a0">
                     <TableID>dbo_Fact_DengueCases</TableID>
                     <ColumnID>Disease_Info_Key</ColumnID>
                   </Source>
@@ -562,16 +543,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="580b46fd-c38c-4a21-9671-36beb2047a56">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="530e5b54-8958-4dd2-a769-bc7fdbd776df">
           <CubeDimensionID>Dim Patient</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="00a2dd4a-8077-4c87-8279-559692cd52af">
+            <Attribute dwd:design-time-name="b439d803-9a9a-4c9e-9831-3378b8cac2bd">
               <AttributeID>Demographic Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="13249b74-e6dc-4657-9bbd-01ae3b2d6d2a">
+                <KeyColumn dwd:design-time-name="f78a4e58-a8f4-4952-9d35-c2c9c42fbd08">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a10eefff-9eb0-451b-a452-8995f1f3505b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5d45c38b-9738-4f77-a3b4-d16d2fbca9f6">
                     <TableID>dbo_Fact_DengueCases</TableID>
                     <ColumnID>Demographic_Key</ColumnID>
                   </Source>
@@ -581,16 +562,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7acf51d7-8814-4a53-a6ba-fe592a1a5410">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8c31cd13-ca1e-4ef7-b1bb-6f1f14304a29">
           <CubeDimensionID>Loc Infected</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="738a6370-4553-484e-a505-3d4ae5265e5b">
+            <Attribute dwd:design-time-name="796d1d49-49a8-4187-b6a6-d07bc8cb257b">
               <AttributeID>Location Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="87f1a89a-1762-4df7-9a25-fb17431ffeb6">
+                <KeyColumn dwd:design-time-name="2e96fb43-db8d-4dfc-9f41-ca3f5ed7c62d">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8c859d13-ce53-466e-8831-cc56c9afe2ad">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="577d52aa-8d5a-4a1c-be6e-f5d7b866d50f">
                     <TableID>dbo_Fact_DengueCases</TableID>
                     <ColumnID>Loc_Infected_Key</ColumnID>
                   </Source>
@@ -600,16 +581,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9978ca98-b151-485c-936e-19feb08fff71">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4f245572-4c5f-49d8-bfdf-571fc79942c7">
           <CubeDimensionID>Date Onset</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f30a672c-3851-4f84-a49f-579efbda2320">
+            <Attribute dwd:design-time-name="dcbc4bd4-0111-4bb9-9332-b657a214916b">
               <AttributeID>Date Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="18611651-a7e6-46e1-8db8-0fc4460614c0">
+                <KeyColumn dwd:design-time-name="e5ac5bf9-3f28-46a3-b316-6c4a62263070">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4bcdc047-91a6-44ec-bae2-8cfef4d56f84">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a7b81ac1-223f-499a-aa9c-cef01408b0e0">
                     <TableID>dbo_Fact_DengueCases</TableID>
                     <ColumnID>Date_Onset_Key</ColumnID>
                   </Source>
@@ -619,16 +600,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a17b699a-66e8-4b7f-bf9d-21aa11d1d09d">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="38a80d59-5657-448f-bfec-3cd60eca48c1">
           <CubeDimensionID>Loc Living</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="d0c28b14-f423-478c-a184-3e2d6750ebd3">
+            <Attribute dwd:design-time-name="4453788a-fba2-484e-918b-d789797bb79c">
               <AttributeID>Location Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="6ed18fbd-b550-434f-9c97-199b3ec833df">
+                <KeyColumn dwd:design-time-name="d57fe825-010c-498d-bd4e-237193db7c8c">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8e3058be-3cf3-4723-9a53-2fbb064a7c83">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4da18c5c-a85a-4ffe-b763-4ea06fffeb2d">
                     <TableID>dbo_Fact_DengueCases</TableID>
                     <ColumnID>Loc_Living_Key</ColumnID>
                   </Source>
@@ -642,7 +623,7 @@
       <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="26db9791-1de4-4c21-bcdd-211e984e3328">
+  <Source dwd:design-time-name="dfe12d72-f5dd-419f-8ab3-940f49dd245a">
     <DataSourceViewID>Taiwan Dengue</DataSourceViewID>
   </Source>
 </Cube>

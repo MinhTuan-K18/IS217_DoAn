@@ -56,14 +56,14 @@
           <ConfigurationSetting>
             <Id>Taiwan Dengue</Id>
             <Name>Taiwan Dengue</Name>
-            <Value xsi:type="xsd:string">Provider=MSOLEDBSQL19.1;Data Source=LENOVO;Persist Security Info=False;Integrated Security=SSPI;User ID=;Initial Catalog=TaiwanDengue;Initial File Name=;Use Encryption for Data=True;Tag with column collation when possible=True;Trust Server Certificate=True;Server SPN=;Use FMTONLY=True;Authentication=;Access Token=;Host Name In Certificate=;Server Certificate=</Value>
+            <Value xsi:type="xsd:string">Provider=MSOLEDBSQL19.1;Data Source=LENOVO;Persist Security Info=False;Integrated Security=SSPI;Initial Catalog=TaiwanDengue;Use Encryption for Data=True;Tag with column collation when possible=True;Trust Server Certificate=True;Use FMTONLY=True</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>Taiwan Dengue</Id>
             <Name>Taiwan Dengue</Name>
-            <Value xsi:type="xsd:int">1</Value>
+            <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
       </Options>
