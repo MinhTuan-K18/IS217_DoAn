@@ -87,4 +87,37 @@ SELECT
         [Dim Product].[Product Name].MEMBERS,
         [Measures].[Gross Sales] > 5000000
     ) ON ROWS
+
 FROM [Amazon Sales]
+
+Áp dụng câu hỏi 3 vào ngữ cảnh Amazon Sales: Tìm Top Category theo Quý và Top Product theo Doanh thu 2 năm
+Câu 3a: Liệt kê Top 1 Danh mục có nhiều đơn hàng nhất theo từng Quý năm 2023
+SELECT
+    {[Measures].[Fact Sales Count]} ON COLUMNS,
+    -- Lặp qua các Quý của năm 2023
+    GENERATE(
+        DESCENDANTS([Dim Date].[Year].&[2023], [Dim Date].[Quarter]),
+        CROSSJOIN(
+            {[Dim Date].[Quarter].CurrentMember}, -- Giữ tên Quý lại để hiển thị
+            TOPCOUNT(
+                [Dim Product].[Category].CHILDREN, -- Lấy danh sách danh mục
+                1,                                 -- Top 1
+                [Measures].[Fact Sales Count]      -- Dựa trên số lượng đơn
+            )
+        )
+    ) ON ROWS
+FROM [Amazon Sales]
+
+Câu 3b: Liệt kê Top 3 Sản phẩm có doanh thu cao nhất trong cả hai năm 2022 và 2023
+SELECT
+    {[Measures].[Gross Sales]} ON COLUMNS,
+    TOPCOUNT(
+        [Dim Product].[Product Name].CHILDREN, -- Lấy danh sách tên sản phẩm
+        3,                                     -- Top 3
+        [Measures].[Gross Sales]               -- Dựa trên doanh thu
+    ) ON ROWS
+FROM [Amazon Sales]
+WHERE (
+    -- Lọc dữ liệu trong tập hợp 2 năm 2022 và 2023
+    {[Dim Date].[Year].&[2022], [Dim Date].[Year].&[2023]}
+)
