@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Amazon Sales.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|solutionrelative:Amazon Sales.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Fact Sales.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|solutionrelative:Fact Sales.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Product.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|solutionrelative:Dim Product.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|solutionrelative:Dim Date.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Origin.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|solutionrelative:Dim Origin.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Payment.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|solutionrelative:Dim Payment.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Destination.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|solutionrelative:Dim Destination.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Order Status.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|solutionrelative:Dim Order Status.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Customer.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{62E559A4-E69A-AE0F-4EA7-21D2C34DA057}|SSAS_AmazonSales.dwproj|solutionrelative:Dim Customer.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Amazon Sales.cube [Design]",
+              "DocumentMoniker": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Amazon Sales.cube",
+              "RelativeDocumentMoniker": "Amazon Sales.cube",
+              "ToolTip": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Amazon Sales.cube [Design]",
+              "RelativeToolTip": "Amazon Sales.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T09:49:24.179Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fact Sales.dim [Design]",
+              "DocumentMoniker": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Fact Sales.dim",
+              "RelativeDocumentMoniker": "Fact Sales.dim",
+              "ToolTip": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Fact Sales.dim [Design]",
+              "RelativeToolTip": "Fact Sales.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T09:46:27.316Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Date.dim [Design]",
+              "DocumentMoniker": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Date.dim",
+              "RelativeDocumentMoniker": "Dim Date.dim",
+              "ToolTip": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Date.dim [Design]",
+              "RelativeToolTip": "Dim Date.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T09:27:16.944Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dim Payment.dim [Design]",
+              "DocumentMoniker": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Payment.dim",
+              "RelativeDocumentMoniker": "Dim Payment.dim",
+              "ToolTip": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Payment.dim [Design]",
+              "RelativeToolTip": "Dim Payment.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T09:27:12.718Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Product.dim [Design]",
+              "DocumentMoniker": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Product.dim",
+              "RelativeDocumentMoniker": "Dim Product.dim",
+              "ToolTip": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Product.dim [Design]",
+              "RelativeToolTip": "Dim Product.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T09:25:37.488Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Origin.dim [Design]",
+              "DocumentMoniker": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Origin.dim",
+              "RelativeDocumentMoniker": "Dim Origin.dim",
+              "ToolTip": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Origin.dim [Design]",
+              "RelativeToolTip": "Dim Origin.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T09:25:10.673Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dim Destination.dim [Design]",
+              "DocumentMoniker": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Destination.dim",
+              "RelativeDocumentMoniker": "Dim Destination.dim",
+              "ToolTip": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Destination.dim [Design]",
+              "RelativeToolTip": "Dim Destination.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T09:25:06.853Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dim Order Status.dim [Design]",
+              "DocumentMoniker": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Order Status.dim",
+              "RelativeDocumentMoniker": "Dim Order Status.dim",
+              "ToolTip": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Order Status.dim [Design]",
+              "RelativeToolTip": "Dim Order Status.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T09:25:03.794Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dim Customer.dim [Design]",
+              "DocumentMoniker": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Customer.dim",
+              "RelativeDocumentMoniker": "Dim Customer.dim",
+              "ToolTip": "E:\\Workspace\\project\\IS217_DoAn\\SSAS\\SSAS_AmazonSales\\Dim Customer.dim [Design]",
+              "RelativeToolTip": "Dim Customer.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-11T09:24:59.523Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
