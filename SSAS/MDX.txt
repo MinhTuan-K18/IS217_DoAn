@@ -1,0 +1,123 @@
+/* BÀI TẬP SSAS - 10 TRUY VẤN OLAP
+   Measure sử dụng: [Measures].[Gross Sales]
+*/
+
+---------------------------------------------------------
+-- PHẦN 1: ROLL UP (TỔNG HỢP)
+---------------------------------------------------------
+
+-- 1. Tổng hợp doanh thu theo từng Năm (Roll up từ chi tiết lên Năm)
+SELECT
+    {[Measures].[Gross Sales]} ON COLUMNS,
+    NON EMPTY {[Dim Date].[Year].CHILDREN} ON ROWS
+FROM [Amazon Sales]
+
+-- 2. (Thao tác tay tương ứng): Kéo Year vào Rows, Gross Sales vào Data.
+
+
+---------------------------------------------------------
+-- PHẦN 2: DRILL DOWN (CHI TIẾT HÓA)
+---------------------------------------------------------
+
+-- 3. Xem chi tiết doanh thu các Tháng (Month) chỉ trong năm 2022
+SELECT
+    {[Measures].[Gross Sales]} ON COLUMNS,
+    DESCENDANTS([Dim Date].[Year].&[2022], [Dim Date].[Month]) ON ROWS
+FROM [Amazon Sales]
+
+-- 4. (Thao tác tay tương ứng): Bấm dấu (+) tại năm 2022 hoặc kéo Month vào cạnh Year.
+
+
+---------------------------------------------------------
+-- PHẦN 3: SLICE AND DICE (CẮT LÁT VÀ XOAY KHỐI)
+---------------------------------------------------------
+
+-- 5. SLICE: Lấy doanh thu Khách hàng, CẮT bỏ tất cả chỉ lấy đơn hàng "Delivered"
+SELECT
+    {[Measures].[Gross Sales]} ON COLUMNS,
+    NON EMPTY {[Dim Customer].[Customer Name].MEMBERS} ON ROWS
+FROM [Amazon Sales]
+WHERE ([Dim Order Status].[Status].&[Delivered])
+
+-- 6. DICE: Lấy Sản phẩm trong khối giao nhau: Năm 2022 VÀ Nhóm 'Electronics'
+SELECT
+    {[Measures].[Gross Sales]} ON COLUMNS,
+    NON EMPTY {[Dim Product].[Product Name].MEMBERS} ON ROWS
+FROM [Amazon Sales]
+WHERE (
+    [Dim Date].[Year].&[2022],
+    [Dim Product].[Category].&[Electronics]
+)
+
+-- 7. (Thao tác tay): Dùng thanh Filter Pane phía trên Browser để lọc Year và Status.
+
+
+---------------------------------------------------------
+-- PHẦN 4: PIVOT (XOAY TRỤC)
+---------------------------------------------------------
+
+-- 8. Xoay trục: Đưa Năm (Year) lên CỘT, Danh mục (Category) xuống HÀNG
+SELECT
+    NON EMPTY {[Dim Date].[Year].CHILDREN} ON COLUMNS,
+    NON EMPTY {[Dim Product].[Category].MEMBERS} ON ROWS
+FROM [Amazon Sales]
+WHERE {[Measures].[Gross Sales]}
+
+-- 9. (Thao tác tay): Kéo Dim Date thả vào vùng Columns, Product vào Rows.
+
+
+---------------------------------------------------------
+-- PHẦN 5: FILTER (LỌC DÒNG CÓ ĐIỀU KIỆN)
+---------------------------------------------------------
+
+-- 10. Lọc Top 5 Khách hàng có doanh thu cao nhất
+SELECT
+    {[Measures].[Gross Sales]} ON COLUMNS,
+    TOPCOUNT(
+        [Dim Customer].[Customer Name].MEMBERS,
+        5,
+        [Measures].[Gross Sales]
+    ) ON ROWS
+FROM [Amazon Sales]
+
+-- 11. (Bonus) Lọc các Sản phẩm có doanh thu trên 5 triệu
+SELECT
+    {[Measures].[Gross Sales]} ON COLUMNS,
+    FILTER(
+        [Dim Product].[Product Name].MEMBERS,
+        [Measures].[Gross Sales] > 5000000
+    ) ON ROWS
+
+FROM [Amazon Sales]
+
+Áp dụng câu hỏi 3 vào ngữ cảnh Amazon Sales: Tìm Top Category theo Quý và Top Product theo Doanh thu 2 năm
+Câu 3a: Liệt kê Top 1 Danh mục có nhiều đơn hàng nhất theo từng Quý năm 2023
+SELECT
+    {[Measures].[Fact Sales Count]} ON COLUMNS,
+    -- Lặp qua các Quý của năm 2023
+    GENERATE(
+        DESCENDANTS([Dim Date].[Year].&[2023], [Dim Date].[Quarter]),
+        CROSSJOIN(
+            {[Dim Date].[Quarter].CurrentMember}, -- Giữ tên Quý lại để hiển thị
+            TOPCOUNT(
+                [Dim Product].[Category].CHILDREN, -- Lấy danh sách danh mục
+                1,                                 -- Top 1
+                [Measures].[Fact Sales Count]      -- Dựa trên số lượng đơn
+            )
+        )
+    ) ON ROWS
+FROM [Amazon Sales]
+
+Câu 3b: Liệt kê Top 3 Sản phẩm có doanh thu cao nhất trong cả hai năm 2022 và 2023
+SELECT
+    {[Measures].[Gross Sales]} ON COLUMNS,
+    TOPCOUNT(
+        [Dim Product].[Product Name].CHILDREN, -- Lấy danh sách tên sản phẩm
+        3,                                     -- Top 3
+        [Measures].[Gross Sales]               -- Dựa trên doanh thu
+    ) ON ROWS
+FROM [Amazon Sales]
+WHERE (
+    -- Lọc dữ liệu trong tập hợp 2 năm 2022 và 2023
+    {[Dim Date].[Year].&[2022], [Dim Date].[Year].&[2023]}
+)

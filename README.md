@@ -20,6 +20,6 @@
 | 2   | 21522532 | Nguyễn Hùng Quyến | https://github.com/NguyenHungQuyen | 21522532@gm.uit.edu.vn |
 
 ## Các đường liên kết:
--    **Dataset:** [Taiwan Dengue Cases 1998-2024](https://www.kaggle.com/datasets/taweilo/taiwan-dengue-daily-confirmed-cases-1998-2024)
+-    **Dataset:** [Amazon Sales Dataset](https://www.kaggle.com/datasets/rohiteng/amazon-sales-dataset)
 -    **Báo cáo:**
 -    **Bảng phân công:** [IS217_Project_management](https://docs.google.com/spreadsheets/d/1Mgkk4wV3Uai42UJOWu_-cgrXUrMziWE4PCbVzIU_sxY/edit?usp=sharing)
