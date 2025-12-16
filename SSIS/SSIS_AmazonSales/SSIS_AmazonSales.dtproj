@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">LENOVO</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK9JElmd1JEm1+/YmULAO/wAAAAACAAAAAAAQZgAAAAEAACAAAADutQcHtAWwQ0nOI/P4efdZcpSSuGLKCPfPACpq6mVf4gAAAAAOgAAAAAIAACAAAAAUnthJ5Dr6oGhkIhaxcxjzI3qUwHSKUijSCPq4mJ6+t5AAAACVA1g6/wD5c64DxtEgkAYAySaJMbwC03spvcmqMaQQseDqm+2X1rlbyrCtYfV1t15dRIm9BMOw/172EFSQNkrQcnxl6+5OtbhFt27jA3gKj5q9O1RnlAxtwqCpvFe43NX5YhyBv9hnkv9teb6uXHgud1fFf4ez120eP0woIQN0ig2InAecG02ARbBHGjZWxoxAAAAANCmrNZCuUiO5OpkFCQmHJdSWHjAEjwDpeVb+qQk3svcMELAQZlzEeZ/7ukxRgaHSfVgxmtUZHjUEDUCeQJod+w==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK9JElmd1JEm1+/YmULAO/wAAAAACAAAAAAAQZgAAAAEAACAAAAB04cDCd78BcaCgTsetVxoNPWJc4Iq7MZJ9WBdGrDAxWQAAAAAOgAAAAAIAACAAAAACs4mdfYrXZ2dxwe2NloZWBwDGxS21fq2Y6SjRlkoBBZAAAADx20BQGCmUxmRFgmFpbEdKHelmyArkzdTQ9QJn1tG3ouvcWY/YsI95ZA6G/Solaf0usFg1+1FqIY0OlH2HGK5nPnrhX/6GGsB7sF/wDfqqKNWZGcIdrUB/R5t1JqGIfTfp/opoYIYu8Er2NdmPil7Lh1Z22DDIpSsunClpqfoVdhWOt2y6x7VWBVYg0ms/y/ZAAAAAtuaFaWnJ+ttjBTE748a4Kh3Sb3XVbxYxFA8ro613rB6VuVh8anBxaBP3d8bC5RLHabBFgutBgyGsjz/uDxOesw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">21</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">41</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{FB0ACC2B-8EE8-41AF-AB1C-47D0297F19E3}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{78141459-34F1-4B00-83D8-F5D2FAE9513C}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -423,7 +423,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=LENOVO;User ID=;Initial Catalog=staging;Provider=MSOLEDBSQL19.1;Persist Security Info=False;Integrated Security=SSPI;Initial File Name=;Use Encryption for Data=True;Tag with column collation when possible=True;Trust Server Certificate=True;Server SPN=;Use FMTONLY=True;Authentication=;Access Token=;Host Name In Certificate=;Server Certificate=;Application Name=SSIS-Package-{1B5F15EC-A169-4EEA-8BEE-3C2DE4D8FD9C}LENOVO.staging;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=LENOVO;Initial Catalog=staging;Provider=MSOLEDBSQL19.1;Persist Security Info=False;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{1B5F15EC-A169-4EEA-8BEE-3C2DE4D8FD9C}LENOVO.staging;Use Encryption for Data=True;Tag with column collation when possible=True;Trust Server Certificate=True;Use FMTONLY=True;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -542,8 +542,6 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">
-                    </SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
