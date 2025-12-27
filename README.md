@@ -21,5 +21,5 @@
 
 ## Các đường liên kết:
 -    **Dataset:** [Amazon Sales Dataset](https://www.kaggle.com/datasets/rohiteng/amazon-sales-dataset)
--    **Báo cáo:**
+-    **Báo cáo:** [IS217.Q14_23521720_21522532.docx](https://docs.google.com/document/d/11pVSn-Su9c5urgwKkUlJmA23DheJhrys/edit?usp=sharing&ouid=101121694761707504100&rtpof=true&sd=true)
 -    **Bảng phân công:** [IS217_Project_management](https://docs.google.com/spreadsheets/d/1Mgkk4wV3Uai42UJOWu_-cgrXUrMziWE4PCbVzIU_sxY/edit?usp=sharing)
