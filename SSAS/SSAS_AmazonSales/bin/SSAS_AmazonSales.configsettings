@@ -12,10 +12,7 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Dim Customer</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Order Status</ID>
+        <ID>Dim Payment</ID>
       </Dimension>
       <Dimension>
         <ID>Dim Destination</ID>
@@ -24,16 +21,19 @@
         <ID>Dim Origin</ID>
       </Dimension>
       <Dimension>
-        <ID>Dim Product</ID>
+        <ID>Dim Customer</ID>
       </Dimension>
       <Dimension>
-        <ID>Dim Payment</ID>
+        <ID>Dim Seller</ID>
       </Dimension>
       <Dimension>
         <ID>Dim Date</ID>
       </Dimension>
       <Dimension>
-        <ID>Dim Seller</ID>
+        <ID>Dim Order Status</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dim Product</ID>
       </Dimension>
       <Dimension>
         <ID>Fact Sales</ID>

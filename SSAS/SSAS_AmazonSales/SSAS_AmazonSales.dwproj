@@ -20,12 +20,8 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Dim Customer.dim</Name>
-      <FullPath>Dim Customer.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Order Status.dim</Name>
-      <FullPath>Dim Order Status.dim</FullPath>
+      <Name>Dim Payment.dim</Name>
+      <FullPath>Dim Payment.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim Destination.dim</Name>
@@ -36,20 +32,24 @@
       <FullPath>Dim Origin.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Product.dim</Name>
-      <FullPath>Dim Product.dim</FullPath>
+      <Name>Dim Customer.dim</Name>
+      <FullPath>Dim Customer.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Payment.dim</Name>
-      <FullPath>Dim Payment.dim</FullPath>
+      <Name>Dim Seller.dim</Name>
+      <FullPath>Dim Seller.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Dim Date.dim</Name>
       <FullPath>Dim Date.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Seller.dim</Name>
-      <FullPath>Dim Seller.dim</FullPath>
+      <Name>Dim Order Status.dim</Name>
+      <FullPath>Dim Order Status.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Product.dim</Name>
+      <FullPath>Dim Product.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Fact Sales.dim</Name>

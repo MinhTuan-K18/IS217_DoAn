@@ -7,7 +7,7 @@
           <ConfigurationSetting>
             <Id>Amazon Sales</Id>
             <Name>Amazon Sales</Name>
-            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAK9JElmd1JEm1+/YmULAO/wAAAAAaAAAAQQBtAGEAegBvAG4AIABTAGEAbABlAHMAAAAQZgAAAAEAACAAAAALsUC+RXV1KConuUHDkeiTUGq9I/RWfZrsn/geTNiu0gAAAAAOgAAAAAIAACAAAADQpuu7sLCg61Utf45GKbZenHxQjioAj9Vc/hT9/dPL+RAAAAAbGnhHtyib07Zl0orcORI+QAAAADAh6KdpGFcRDVlbxWVivtjxG3trP+qM4d9jVFDNoeRnW1FBqe0yl4bBEB++TX0hKsbAPOfuMc6eLkBEO3dRsIA=</Value>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZtkulF8j002Dr8F64UhCMAAAAAAaAAAAQQBtAGEAegBvAG4AIABTAGEAbABlAHMAAAAQZgAAAAEAACAAAABWljf4PhriD/3JaZhc9qT76caz+1fI2GybdbT9QLWh5QAAAAAOgAAAAAIAACAAAAAbAZqkKSNouj6ge1qgu1VyUJbbqeu99434xQMNWuTEnxAAAABkfOIKpLOAt6TjrpoIoy9hQAAAABQdsZy+EuqhvPflPTvkiJ+CMq17rItenMhfvx0ev//706tF+JsOFucnKBVmt+q+a4PS8l+oXffRVwkCODPQv6k=</Value>
           </ConfigurationSetting>
         </UserIDs>
         <TargetServer>localhost</TargetServer>
